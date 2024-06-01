@@ -27,4 +27,17 @@ git add README.md
 git commit -m 'commit message'
 git push origin new_develop_branch
 
+fifth commit and make pull_request_branch from main branch
+git branch pull_request_branch main
+git checkout pull_request_branch
+change and save README.md
+git add README.md
+git commit -m 'commit message'
+git push origin pull_requset_branch
+brew install gh
+gh auth login
+gh pr create --base main --head pull_request_branch --title "Add new feature" --body "This PR adds a new feature"
+
+
+
 
