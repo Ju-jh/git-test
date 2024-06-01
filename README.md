@@ -38,6 +38,35 @@ brew install gh
 gh auth login
 gh pr create --base main --head pull_request_branch --title "Add new feature" --body "This PR adds a new feature"
 
+sixth commit and delete wrong commit
+change README.md
+git add README.md
+git commit -m 'wrong commit'
+git reset HEAD^
+change README.md
+git add README.md
+git commit -m 'first wrong commit message'
+change README.md
+git add REAMDE.md
+git commit -m 'second wrong commit message'
+change README.md
+git add README.md
+git commit -m 'third wrong commit message'
+git reset [second commit number]
+git reset --hard [first commit number]
+change README.md
+git add README.md
+git reset
+git commit -am 'README.md add commit message'
+git push origin main
+
+
+
+
+
+
+
+
 
 
 
