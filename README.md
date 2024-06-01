@@ -11,3 +11,10 @@ git checkout -b develop
 git add README.md
 git commit -m 'commit message'
 git push origin develop
+
+third commit and merge to main branch from develop branch
+git add README.md
+git commit -m 'commit message'
+git push origin develop
+git checkout main
+git merge develop
