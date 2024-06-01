@@ -18,3 +18,13 @@ git commit -m 'commit message'
 git push origin develop
 git checkout main
 git merge develop
+
+fourth commit and make new_develop_branch from main branch
+git branch new_develop_branch main
+git checkout new_develop_branch
+change and save README.md 
+git add README.md
+git commit -m 'commit message'
+git push origin new_develop_branch
+
+
