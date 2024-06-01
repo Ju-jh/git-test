@@ -1,0 +1,16 @@
+third commit and merge to main branch from develop branch
+
+git add README.md
+=> staging README.md file to local's develop branch.
+
+git commit -m 'commit message'
+=> commit on local's develop branch with 'commit message'
+
+git push origin develop
+=> push to origin's develop branch.
+
+git checkout main
+=> checkout to main branch.
+
+git merge develop
+=> merge from local's develop branch to local's main branch.

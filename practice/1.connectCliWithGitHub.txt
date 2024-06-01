@@ -1,0 +1,10 @@
+first commit and connect with github by using SSH key on cli.
+
+git add README.md
+=> staging README.md file.
+
+git commit -m 'commit message'
+=> commit staged file with message which is 'commit message'
+
+git push origin main
+=> push to origin's main branch.

@@ -1,0 +1,67 @@
+sixth commit and delete wrong commit
+
+change README.md
+=> saving changed README.md file.
+
+git add README.md
+=> staging to local's main branch.
+
+git commit -m 'wrong commit'
+=> commit on local's main branch with 'wrong commit' message.
+
+git reset HEAD^
+=> delete commit until latest commit.
+
+change README.md
+=> saving changed README.md file.
+
+git add README.md
+=> staging README.md file on local's main branch.
+
+git commit -m 'first wrong commit message'
+=> commit to local's main branch with 'first wrong commit message' message.
+
+change README.md
+=> saving README.md file.
+
+git add REAMDE.md
+=> staging README.md file on local's main branch.
+
+git commit -m 'second wrong commit message'
+=> commit to local's main branch with 'second wrong commit message' message.
+
+change README.md
+=> saving README.md file.
+
+git add README.md
+=> staging README.md file on local's main branch.
+
+git commit -m 'third wrong commit message'
+=> commit to local's main branch with 'third wrong commit message' message.
+
+git reset [second commit number]
+=> delete commit until [second commit number]'s commit.
+
+git reset --hard [first commit number]
+=> delete commit until [first commit number] and changed file from [first commit number].
+
+change README.md
+=> saving README.md file.
+
+git add README.md
+=> staging README.md file on local's main branch.
+
+git reset
+=> unstaging all staged file.
+
+git commit -am 'README.md add commit message'
+=> staging all file and commit to local's main branch with 'README.md add commit message' message.
+
+git push origin main
+=> push to origin's main branch from local's main branch.
+
+
+
+
+
+

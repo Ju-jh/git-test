@@ -1,0 +1,28 @@
+fifth commit and make pull_request_branch from main branch
+
+git branch pull_request_branch main
+=> make pull_request_branch branch from main branch.
+
+git checkout pull_request_branch
+=> checkout to pull_request_branch branch.
+
+change and save README.md
+=> saving changed file.
+
+git add README.md
+=> staging README.md file on pull_request_branch branch.
+
+git commit -m 'commit message'
+=> commit on pull_request_branch branch.
+
+git push origin pull_requset_branch
+=> push to origin's pull_request_branch branch.
+
+brew install gh
+=> install gh on cli.
+
+gh auth login
+=> login to gh.
+
+gh pr create --base main --head pull_request_branch --title "Add new feature" --body "This PR adds a new feature"
+=> pull request to main branch from pull_request_branch branch.

@@ -1,0 +1,19 @@
+fourth commit and make new_develop_branch from main branch
+
+git branch new_develop_branch main
+=> make new_develop_branch branch from main branch. 
+
+git checkout new_develop_branch
+=> checkout from local's main branch to local's new_develop_branch branch.
+
+change and save README.md 
+=> saving changed file.
+
+git add README.md
+=> staging README.md file to local's new_develop_branch branch.
+
+git commit -m 'commit message'
+=> commit on local's new_develop_branch branch.
+
+git push origin new_develop_branch
+=> pushing to origin's new_develop_branch branch.
